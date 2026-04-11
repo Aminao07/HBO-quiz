@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
- 
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,44 +10,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
- 
+
 </head>
- 
+
 <body data-page="home">
   <div class="page-shell">
     <header class="site-header glass-panel">
       <a class="brand" href="index.html">
- 
+
         <img src="img/logo.png" class="brand-mark" alt="" style="width: 80px; height: 80px; border-radius: 50%;">
- 
- 
+
+
         <span>
           <strong>HBO Quiz</strong>
           <small>Vind jouw ICT-vibe</small>
         </span>
       </a>
- 
+
       <button class="menu-toggle" type="button" aria-label="Open menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
- 
+
       <nav class="site-nav">
         <a class="active" href="index.html">Home</a>
-        <a href="quiz.html">Quiz</a>
+        <a href="quiz/index.html">Quiz</a>
         <a href="about.html">Over Ons</a>
-        <a href="contact.html">Contact</a>
       </nav>
     </header>
- 
+
     <main>
       <section class="hero section-grid">
         <div class="hero-copy">
           <span class="eyebrow reveal">Interactief · Creatief · ICT</span>
- 
+
           <h1 class="title interactive-text">
             <span>Kies</span>
             <span>een</span>
@@ -58,115 +57,69 @@
             <span>energie</span>
             <span>past.</span>
           </h1>
- 
+
           <p class="reveal delay">
             Deze demo laat zien hoe jouw website eruit kan zien: speels,
             modern en uitnodigend. Later kan de echte opleiding-quiz hierop
             worden aangesloten.
           </p>
- 
+
           <div class="hero-actions reveal delay-2">
-            <a class="button button-primary">Probeer de Quiz</a>
-            <a class="button button-secondary">Neem contact op</a>
+            <a class="button button-primary" href="quiz/index.html">Probeer de Quiz</a>
+
+
           </div>
         </div>
- 
+
         <div class="hero-box">
           <div class="card-stack">
- 
+
             <div class="card pos-2">
-              <span class="chip1">Nieuw</span>
               <h2>Software Engineering</h2>
             </div>
- 
+
             <div class="card pos-1">
               <h2>Network & Systems Engineering</h2>
             </div>
- 
+
             <div class="card pos-0">
               <h2>Innovatie Development</h2>
             </div>
- 
+
             <div class="card pos-3">
               <h2>Information Security Management</h2>
             </div>
- 
+
             <div class="card pos-4">
               <h2>Business & Data Management</h2>
             </div>
- 
+
           </div>
         </div>
- 
- 
+
+
       </section>
- 
-      <!-- SECTION 1 -->
-      <section class="about section-grid">
- 
-        <div class="about-image">
-          <img src="img/ict.jpg" alt="ICT studenten">
-        </div>
- 
-        <div class="about-content">
-          <h2>Waarom hebben we deze website gemaakt?</h2>
- 
-          <p>
-            Deze website is gemaakt om mbo-studenten te helpen die willen doorstromen
-            naar een ICT-opleiding op het hbo. Veel studenten weten nog niet precies
-            welke richting het beste bij hen past.
-          </p>
-        </div>
- 
-      </section>
- 
-      <!-- SECTION 2 -->
-      <section class="about section-grid reverse">
- 
-        <div class="about-image">
-          <img src="img/ict2.jpg" alt="ICT richting kiezen">
-        </div>
- 
-        <div class="about-content">
-          <h2>Hoe helpt deze quiz?</h2>
- 
-          <p>
-            Met deze quiz kunnen studenten op een leuke en interactieve manier
-            ontdekken welke ICT-richting bij hun interesses en vaardigheden past.
-            Denk aan Software Engineering, Cyber Security of Data.
-          </p>
- 
-        </div>
- 
-      </section>
- 
- 
-      <script src="script.js"></script>
-</body>
-<br>
-<footer class="site-footer glass-panel">
+
+    <footer class="site-footer glass-panel">
   <div class="footer-content">
-    <!-- Logo bovenaan -->
     <div class="footer-logo">
       <a href="index.html" class="brand">
         <img src="img/logo.png" class="brand-mark" alt="HBO Quiz Logo">
       </a>
     </div>
- 
-    <!-- Navigatie in het midden -->
+
     <nav class="footer-nav">
       <a href="index.html"><i class="fas fa-home"></i> Home</a>
-      <a href="quiz.html"><i class="fas fa-question-circle"></i> Quiz</a>
-      <a href="about-us.html"><i class="fas fa-users"></i> Over Ons</a>
-      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="quiz/index.html"><i class="fas fa-question-circle"></i> Quiz</a>
+      <a href="about.html"><i class="fas fa-users"></i> Over Ons</a>
     </nav>
- 
-    <!-- Copyright onderaan -->
+
     <p class="footer-copy">&copy; 2026 HBO Quiz. Alle rechten voorbehouden.</p>
   </div>
 </footer>
- 
- 
- 
- 
+
+<script src="javascript/script.js"></script>
+</body>
+<br>
+
 </html>
